@@ -1,0 +1,24 @@
+# AI Rules - private and never committed
+/rules/BASE_RULES.md
+/rules/skills/
+/.cursor/rules/
+/CLAUDE.md
+/AGENTS.md
+
+# AI Rules - public and intentionally committed
+# /AI_RULES.md
+# /rules/PROJECT_SPECIFIC.md
+# /.custom-ruleset-manager/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local notes
+review_notes_with_asst.md
