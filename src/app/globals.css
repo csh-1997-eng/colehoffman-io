@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #0A0A0A;
+  --color-text: #E8E5E0;
+  --color-accent: #C45A3C;
+  --color-dim: #A8A5A0;
+  --color-body-dark: #1A1A1A;
+  --color-medium: #4A4A4A;
+  --color-light: #888888;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-text);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
