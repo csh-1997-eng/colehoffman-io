@@ -19,7 +19,10 @@ const links = [
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 max-w-5xl mx-auto">
+    <section
+      id="connect"
+      className="min-h-screen scroll-mt-24 flex flex-col justify-center px-6 pt-24 pb-16 max-w-5xl mx-auto"
+    >
       <ScrollReveal>
         <h1 className="font-[family-name:var(--font-playfair)] text-[clamp(3rem,8vw,6rem)] leading-[0.95] tracking-[0.04em] uppercase mb-6">
           Cole Hoffman
