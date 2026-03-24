@@ -41,3 +41,5 @@ pnpm-debug.log*
 # local notes
 review_notes_with_asst.md
 dev_resources/
+.vercel
+.env*.local
