@@ -29,6 +29,12 @@ const projects = [
       "A repository for exploring geospatial applications to help the city of Philadelphia.",
     link: "https://github.com/csh-1997-eng/gis-phl",
   },
+  {
+    name: "The Margin",
+    description:
+      "An Operator-focused publication documenting the narrative and thesis that shape the world in the Margins.",
+    link: "https://github.com/csh-1997-eng/the-margin",
+  },
 ];
 
 export default function Building() {
